@@ -1,0 +1,163 @@
+.home-scroll-container {
+          
+  overflow-y: auto;
+  overflow-x: visible;
+  padding: 2rem;
+  width: 941.6px;
+  height: 541px;
+  border: 1px solid #000;
+ justify-content: center; /* Center horizontally */
+  align-items: center;     /* Center vertically */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #e2f1f2;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap; /* lets items wrap on smaller screens */
+  gap: 1rem;
+}
+
+.flex-item {
+  flex: 1 1 300px; /* grow, shrink, base width */
+}
+
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.home-subtext {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-style: italic;
+  text-align: center; /* ✅ Center alignment */
+}
+
+
+ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.cta-button {
+  background-color: #28a745;
+  color: white;
+  padding: 0.5rem 1rem;       /* Smaller padding */
+  font-size: 1rem;            /* Smaller text */
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+
+}
+
+.cta-button:hover {
+  background-color: #218838;
+}
+
+.banner-container{
+  position: cover;
+  overflow: hidden;                     /* Important for clipping blur */
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  padding: 6rem 2rem;
+}
+.banner-container::before {
+  content: "";
+  position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('/Images/college-banner-.png');
+  background-size: 1000px 400px;
+  background-position: center;
+  filter: blur(2px);                    /* 👈 Slight blur */
+  transform: scale(1.1);               /* Prevent edges from showing due to blur */
+  z-index: 0;
+
+  background-repeat: no-repeat;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: rgb(43, 39, 164);
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-container * {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-container h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.banner-container p {
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+}
+
+.cta-button {
+  margin-top: 1.5rem;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+.gallery-image {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.02);
+}
+.taller-image {
+  height: 235px;         /* Increase to your desired height */
+  object-fit: cover;  
+}
+.button-wrapper {
+  text-align: center;
+}

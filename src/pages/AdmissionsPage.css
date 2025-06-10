@@ -1,0 +1,49 @@
+.admissions-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f9f0f0;
+}
+
+.main-heading {
+  color: #007bff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+.eligibility-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.eligibility-table th,
+.eligibility-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.eligibility-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.application-list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.application-list li {
+  margin-bottom: 0.75rem;
+}

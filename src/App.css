@@ -1,0 +1,165 @@
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: hsl(174, 26%, 93%);
+}
+
+.header {
+  background: hwb(212 15% 79%);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 900px;
+  background: #e5edee;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+
+.h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.cta-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto 0;
+  background: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  position:center bottom;
+  bottom: 40px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-6%);
+
+}
+
+.cta-button:hover {
+  background: darkgreen;
+
+}
+
+a{
+  color:rgb(23, 20, 20);
+}
+  
+ 
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #eaf5f5;
+}
+
+
+nav {
+  background: #222;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 800px;
+  background: #ecf4f5
+;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: hwb(212 15% 79%);
+}
+
+ul {
+  padding-left: 20px;
+}
+
+p, li {
+  line-height: 1.6;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.r {
+  text-align:center;
+}
+.note {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: #555;
+}
+
+#contactForm {
+    width: 150%;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}

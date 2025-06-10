@@ -1,0 +1,129 @@
+.contact-scroll-container {
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 900px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f0f9ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+.home-scroll-container {
+          
+  overflow-y: auto;
+  padding: 2rem;
+  width: 941.6px;
+  height: 541px;
+  border: 1px solid #000;
+ 
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ 
+  margin: 2rem auto;
+  
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+/* html table*/
+.custom-table-style,
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0; /* Lighter background for contrast */
+  color: #000; /* Darker text for readability */
+}
+
+.custom-table-style h2,
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222; /* Slightly darker title */
+}
+
+.custom-table-style table,
+.container table {
+  width: 100%;
+  border-collapse: collapse; /* Unified border style */
+  margin-top: 10px;
+  border: 2px solid #333; /* Visible border around the table */
+  background-color: #ffffff; /* White table background */
+}
+
+.custom-table-style th,
+.custom-table-style td,
+.container th,
+.container td {
+  border: 2px solid #444; /* More defined cell borders */
+  padding: 12px;
+  text-align: left;
+}
+
+.custom-table-style th,
+.container th {
+  background-color: #666; /* Header background */
+  font-weight: bold;
+  color: #fff; /* White text for contrast */
+}
+.form-container {
+  width: 550px;
+  margin: inherit;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+ input {
+  width: 75%; /* Adjust width relative to its parent */
+  display: block;
+  margin: 0 auto; /* Centers the input */
+  text-align: center;
+  padding: 10px;
+
+
+}
+textarea {
+  width: 75%; /* Full width */
+  height: 100px; /* Fixed height */
+  padding: 10px;
+  border: 2px solid #333;
+  background-color: #f9f9f9;
+  font-size: 16px;
+  resize: none; /* Prevents resizing */
+  margin: 0 auto;
+}
